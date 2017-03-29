@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		19BB01831E8BE15D006C70AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB01821E8BE15D006C70AC /* AppDelegate.swift */; };
-		19BB01851E8BE15D006C70AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB01841E8BE15D006C70AC /* ViewController.swift */; };
+		19BB01851E8BE15D006C70AC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB01841E8BE15D006C70AC /* LoginVC.swift */; };
 		19BB01881E8BE15D006C70AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BB01861E8BE15D006C70AC /* Main.storyboard */; };
 		19BB018A1E8BE15D006C70AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19BB01891E8BE15D006C70AC /* Assets.xcassets */; };
 		19BB018D1E8BE15D006C70AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19BB018B1E8BE15D006C70AC /* LaunchScreen.storyboard */; };
+		19BB01951E8BE33A006C70AC /* MusicListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19BB01941E8BE33A006C70AC /* MusicListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		19BB017F1E8BE15D006C70AC /* SwappingScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwappingScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		19BB01821E8BE15D006C70AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		19BB01841E8BE15D006C70AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		19BB01841E8BE15D006C70AC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		19BB01871E8BE15D006C70AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		19BB01891E8BE15D006C70AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19BB018C1E8BE15D006C70AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19BB018E1E8BE15D006C70AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19BB01941E8BE33A006C70AC /* MusicListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicListVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				19BB01821E8BE15D006C70AC /* AppDelegate.swift */,
-				19BB01841E8BE15D006C70AC /* ViewController.swift */,
+				19BB01841E8BE15D006C70AC /* LoginVC.swift */,
 				19BB01861E8BE15D006C70AC /* Main.storyboard */,
 				19BB01891E8BE15D006C70AC /* Assets.xcassets */,
 				19BB018B1E8BE15D006C70AC /* LaunchScreen.storyboard */,
 				19BB018E1E8BE15D006C70AC /* Info.plist */,
+				19BB01941E8BE33A006C70AC /* MusicListVC.swift */,
 			);
 			path = SwappingScreens;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				19BB01851E8BE15D006C70AC /* ViewController.swift in Sources */,
+				19BB01951E8BE33A006C70AC /* MusicListVC.swift in Sources */,
+				19BB01851E8BE15D006C70AC /* LoginVC.swift in Sources */,
 				19BB01831E8BE15D006C70AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
